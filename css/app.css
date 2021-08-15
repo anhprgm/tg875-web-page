@@ -339,6 +339,9 @@ h6 {
   align-items: center;
   cursor: pointer;
   transition: opacity 0.2s linear;
+  border-radius:5%;
+  -moz-border-radius:5%;
+  -webkit-border-radius:5%;
 }
 .partner-item:hover {
   opacity: 0.1;
