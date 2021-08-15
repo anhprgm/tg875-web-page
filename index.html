@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TG875 STUDIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <div class="menu">
+      <ion-icon name="close" class="menu-close"></ion-icon>
+      <ul class="menu-list">
+        <li class="menu-item">
+          <a href="#portfolio" class="menu-link">Portfolio</a>
+        </li>
+        <li class="menu-item">
+          <a href="#partners" class="menu-link">Partners</a>
+        </li>
+        <li class="menu-item">
+          <a href="#team" class="menu-link">Team</a>
+        </li>
+        <li class="menu-item">
+          <a href="#blog" class="menu-link">Blog</a>
+        </li>
+        <li class="menu-item">
+          <a href="#contact" class="menu-link">Contact</a>
+        </li>
+        <li class="menu-item menu-phone">
+          Phone: <a href="tel:0382717655">+84 - 382 717 655</a>
+        </li>
+      </ul>
+    </div>
+    <header class="header">
+      <div class="container">
+        <div class="header-main">
+          <a href="index.html" class="header-logo">
+            <img src="./images/loogo.png" alt="" class="header-logo"/>
+          </a>
+          <div class="navigation">
+            <p class="header-phone">
+              Phone: <a href="tel:0382717655">+84 - 382 717 655</a>
+            </p>
+            <img src="./images/icon-search.png" alt="" class="icon-search" />
+            <img src="./images/icon-bars.png" alt="" class="menu-toggle" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <img src="https://images.pexels.com/photos/4252525/pexels-photo-4252525.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="hero-image" />
+        <div class="hero-content">
+          <h2 class="hero-caption second-font">Sáng Tạo Và Kĩ Thuật</h2>
+          <h1 class="hero-heading second-font">Tg875 Studio</h1>
+          <a href="#" class="hero-link">Tham Khảo</a>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="container">
+          <div class="portfolio-list">
+            <div class="portfolio-column">
+              <div class="portfolio-item">
+                <a href="https://www.minecraft.net/" class="portfolio-image">
+                  <img src="https://image.api.playstation.com/vulcan/img/cfn/11307x4B5WLoVoIUtdewG4uJ_YuDRTwBxQy0qP8ylgazLLc01PBxbsFG1pGOWmqhZsxnNkrU3GXbdXIowBAstzlrhtQ4LCI4.png" alt="ảnh game minecraft" class="icongame" />
+                </a>
+                <h3>
+                  <a class="portfolio-title title second-font" href=""
+                    >Mua Minecraft giá rẻ với chiến dịch của chúng tôi</a
+                  >
+                </h3>
+                <a href="#" class="portfolio-category text--small"
+                  >Tải Game Ngay</a
+                >
+              </div>
+              <div class="portfolio-item">
+                <a href="#" class="portfolio-image">
+                  <img src="https://dailyspin.id/wp-content/uploads/2020/09/Logo-MLBB-Baru.jpg" alt="game mobile legends" class="icongame" />
+                </a>
+                <h3>
+                  <a class="portfolio-title title second-font" href=""
+                    >Làm quen với nhiều tướng có khó chơi</a
+                  >
+                </h3>
+                <a href="#" class="portfolio-category text--small"
+                  >Tải Game Ngay</a
+                >
+              </div>
+              <div class="portfolio-item">
+                <a href="#" class="portfolio-image">
+                  <img src="data:image/png;base64,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" alt="sàn attlas" class="icongame"/>
+                </a>
+                <h3>
+                  <a class="portfolio-title title second-font" href=""
+                    >Trade coin với phương châm đu đỉnh bắt đáy</a
+                  >
+                </h3>
+                <a href="#" class="portfolio-category text--small"
+                  >Kiếm Tiền Ngay</a
+                >
+              </div>
+            </div>
+            <div class="portfolio-column">
+              <div class="portfolio-item">
+                <a href="https://play.google.com/store/apps/details/PUBG_MOBILE?id=com.tencent.ig&hl=vi&gl=US" class="portfolio-image">
+                  <img src="https://play-lh.googleusercontent.com/JRd05pyBH41qjgsJuWduRJpDeZG0Hnb0yjf2nWqO7VaGKL10-G5UIygxED-WNOc3pg" alt="ảnh Game Pubg Mobile" class="icongame" />
+                </a>
+                <h3>
+                  <a class="portfolio-title title second-font" href=""
+                    >Nhận nhiều ưu đãi khi tải Pubg Mobile trên Chplay</a
+                  >
+                </h3>
+                <a href="#" class="portfolio-category text--small"
+                  >Tải Game Ngay</a
+                >
+              </div>
+              <div class="portfolio-item">
+                <a href="#" class="portfolio-image">
+                  <img src="https://cdn.tgdd.vn/GameApp/4/221941/Screentshots/lien-minh-huyen-thoai-game-moba-pho-bien-nhat-the-gioi-21-05-2020-2.jpg" alt="ảnh game lol" class="icongame"/>
+                </a>
+                <h3>
+                  <a class="portfolio-title title second-font" href=""
+                    >Tập luyện kĩ năng đỉnh cao một mình cân năm</a
+                  >
+                </h3>
+                <a href="#" class="portfolio-category text--small"
+                  >Tải Game Ngay</a
+                >
+              </div>
+              <div class="portfolio-item">
+                <a href="#" class="portfolio-image">
+                  <img src="https://images.pexels.com/photos/1038916/pexels-photo-1038916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+                </a>
+                <h3>
+                  <a class="portfolio-title title second-font" href=""
+                    >Phòng studio đầu tư tiền tỉ, Tham gia công ty chúng tôi để hưởng lợi ích</a
+                  >
+                </h3>
+                <a href="#" class="portfolio-category text--small"
+                  >Tham gia ngay</a
+                >
+              </div>
+              <div class="portfolio-item">
+                <a href="#" class="portfolio-image">
+                  <img src="./images/img8.png" alt="" />
+                </a>
+                <h3>
+                  <a class="portfolio-title title second-font" href=""
+                    >Hãy cùng chúng tôi định nghĩa lại cách kiếm tiền tại Việt Nam</a
+                  >
+                </h3>
+                <a href="#" class="portfolio-category text--small"
+                  >Tham gia ngay</a
+                >
+              </div>
+            </div>
+            <div class="portfolio-column">
+              <div class="portfolio-item">
+                <a href="https://play.google.com/store/apps/details?id=com.ngame.allstar.eu&hl=vi&gl=US" class="portfolio-image">
+                  <img src="https://upload.motgame.vn/photos/motgame-vn/2020/12/motgame_garena_lien_quan_mobile_logo.png" alt="ảnh game liên quân" class="icongame" />
+                </a>
+                <h3>
+                  <a class="portfolio-title title second-font" href=""
+                    >Thành thạo mọi kĩ năng cùng game thủ của chúng tôi</a
+                  >
+                </h3>
+                <a href="#" class="portfolio-category text--small"
+                  >Tải Game Ngay</a
+                >
+              </div>
+              <div class="portfolio-item">
+                <a href="#" class="portfolio-image">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3xOwF-TlWMnIpPcAkyOxBHzRMqm78XmojfA&usqp=CAU" alt="sàn vndc" class="icongame" />
+                </a>
+                <h3>
+                  <a class="portfolio-title title second-font" href=""
+                    >Kiếm tiền cực dễ dàng với sàn VNDC cực dễ dàng với khó đào tạo của chúng tôi</a
+                  >
+                </h3>
+                <a href="#" class="portfolio-category text--small"
+                  >Kiếm tiền ngay</a
+                >
+              </div>
+              <div class="portfolio-item">
+                <a href="#" class="portfolio-image">
+                  <img src="./images/img11.png" alt="" />
+                </a>
+                <h3>
+                  <a class="portfolio-title title second-font" href=""
+                    >Kiếm tiền ngay tại nhà chỉ với chiếc laptop của bạn</a
+                  >
+                </h3>
+                <a href="#" class="portfolio-category text--small"
+                  >Tham gia Ngay</a
+                >
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn btn--primary portfolio-link"> Bắt Đầu </a>
+        </div>
+      </section>
+      <section class="partner" id="partners">
+        <div class="container">
+          <div class="partner-main">
+            <a href="#" class="partner-item">
+              <img src="./images/logo1.png" alt="" />
+            </a>
+            <a href="#" class="partner-item">
+              <img src="./images/logo2.png" alt="" />
+            </a>
+            <a href="#" class="partner-item">
+              <img src="./images/logo3.png" alt="" />
+            </a>
+            <a href="#" class="partner-item">
+              <img src="./images/logo4.png" alt="" />
+            </a>
+            <a href="#" class="partner-item">
+              <img src="./images/logo5.png" alt="" />
+            </a>
+            <a href="#" class="partner-item">
+              <img src="./images/logo6.png" alt="" />
+            </a>
+            <a href="#" class="partner-item">
+              <img src="./images/logo7.png" alt="" />
+            </a>
+            <a href="#" class="partner-item">
+              <img src="./images/logo8.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="team" id="team">
+        <div class="container">
+          <div class="team-main">
+            <div class="team-content">
+              <h2 class="team-heading heading second-font">
+                Tg875 Studio sẽ mang lại niềm vui và phong cách cho bạn
+              </h2>
+              <p class="team-desc">
+                Cùng các chuyên gia về chứng khoán, thị trường, lập trình.
+                Hình ảnh bên cạnh là các chuyên gia của chúng tôi: Mr Đằng, Lứng Sàng, Hiếu Dark
+              </p>
+              <a href="#" class="btn btn--primary">Get Started</a>
+            </div>
+            <div class="team-images">
+              <div class="team-column">
+                <a href="#" class="team-image">
+                  <img src="./images/team4.jpg" alt="" class="icongame"/>
+                </a>
+                <a href="#" class="team-image">
+                  <img src="./images/team2.png" class="team-img2" alt=""  />
+                </a>
+              </div>
+              <div class="team-column">
+                <a href="#" class="team-image">
+                  <img src="./images/team3.jpg" alt="" class="icongame"/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog" id="blog">
+        <div class="container">
+          <div class="blog-header">
+            <h2 class="blog-heading heading">Điểm Qua Một Vài Dịch Vụ Của Chúng Tôi</h2>
+            <p class="blog-desc text">
+              Thông minh, sáng tạo, kĩ năng đỉnh cao, tư duy thậy toán, kĩ năng đọc lệnh. 
+              Chúng tôi tự tin rằng sẽ làm cho bạn hài lòng nhất
+            </p>
+          </div>
+          <div class="blog-list">
+            <div class="blog-item">
+              <a href="#" class="blog-image">
+                <img src="https://tuyensinhso.vn/images/files/tuyensinhso.com/thiet-ke-do-hoa-2.jpg" alt="" class="icongame"/>
+              </a>
+              <h3>
+                <a class="blog-title title" href=""
+                  >Thiết kế đồ họa cho người mới bắt đầu</a
+                >
+              </h3>
+              <a href="#" class="blog-category text--small">Design</a>
+            </div>
+            <div class="blog-item">
+              <a href="#" class="blog-image">
+                <img src="https://static.tapchitaichinh.vn/w800/images/upload/phunganhtuan/02282021/chung-khoan.jpg" alt="" class="icongame"/>
+              </a>
+              <h3>
+                <a class="blog-title title" href=""
+                  >Kiến thức cơ bản về thị trường chứng khoán</a
+                >
+              </h3>
+              <a href="#" class="blog-category text--small">Chứng khoán</a>
+            </div>
+            <div class="blog-item">
+              <a href="#" class="blog-image">
+                <img src="https://newsmd1fr.keeng.net/tiin/archive/images/546/202009/20200908/tinngan_075124_122214648_0.jpg" alt="" class="icongame" />
+              </a>
+              <h3>
+                <a class="blog-title title" href=""
+                  >Rèn luyện kĩ năng solo 1 vs 1 với Bốp Bốp</a
+                >
+              </h3>
+              <a href="#" class="blog-category text--small">Kĩ năng đỉnh cao</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container contact-container">
+          <div class="contact-header">
+            <h2 class="contact-heading heading">
+              Contact us to <strong>Grow your Business</strong>
+            </h2>
+            <p class="contact-desc text">
+              Integer eu metus at orci scelerisque rutrum. Vivamus condimentum,
+              ipsum vitae iaculis cursus, turpis nisl ultricies massa.
+            </p>
+          </div>
+          <form action="javascript:void(0);" class="contact-form">
+            <input
+              type="text"
+              class="contact-input contact-field"
+              placeholder="evondev"
+              required
+            />
+            <input
+              type="email"
+              class="contact-input contact-field"
+              placeholder="E.g., a.octavian@gmail.com"
+              required
+            />
+            <textarea
+              class="contact-area contact-field"
+              placeholder="Your message"
+              required
+              minlength="50"
+            ></textarea>
+            <button type="submit" class="btn btn--secondary">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-main">
+            <div class="footer-column">
+              <a href="index.html" class="footer-logo"
+                ><img src="./images/imh.png" alt=""
+              /></a>
+              <div class="footer-desc text">
+                Vivamus dapibus et purus quis mollis. Mauris tempus tortor vel
+                mi eleifend laoreet. Nulla laoreet sapien erat.
+              </div>
+              <div class="social">
+                <a href="#" class="social-item">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="#" class="social-item">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+                <a href="#" class="social-item">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="#" class="social-item">
+                  <ion-icon name="logo-dribbble"></ion-icon>
+                </a>
+              </div>
+            </div>
+            <div class="footer-column">
+              <h3 class="footer-heading second-font">Usefull Links</h3>
+              <ul class="footer-links">
+                <li class="footer-item">
+                  <a href="#" class="footer-link">About Us</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Contact us</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Terms of Services</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Plan & Precing</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#" class="footer-link">Site Map</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h3 class="footer-heading second-font">Contact Us</h3>
+              <ul class="footer-info">
+                <li>Phone Number 2: ( + 051 ) 958 23 78 51</li>
+                <li>
+                  Phone Number 2:
+                  <span class="footer-highlight">( + 051 ) 958 23 78 51</span>
+                </li>
+              </ul>
+              <ul class="footer-info">
+                <li>
+                  <a href="mailto:support@ocatavian.io"
+                    >Email: support@ocatavian.io</a
+                  >
+                </li>
+                <li>Fax: support@ocatavian.io</li>
+              </ul>
+              <ul class="footer-info">
+                <li>
+                  Address: Envato Pty Ltd 13/2 Permanent ST melbourne VLC 3000 -
+                  Australia
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container footer-container">
+          <a href="#" class="footer-rocket">
+            <ion-icon name="rocket"></ion-icon>
+          </a>
+          <p>
+            Copyright © 2020 Octavian, Designed by <a href="#">TexTheme</a> All
+            Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
